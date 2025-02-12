@@ -61,3 +61,6 @@ Contributions are welcome! If you have suggestions, improvements, or new feature
 ## License
 
 This project is open source. You are free to modify and use it according to your needs.
+
+## Contact
+Jinqi.Mao15@gmail.com
