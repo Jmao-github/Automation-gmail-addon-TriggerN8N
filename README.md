@@ -1,30 +1,63 @@
 # Automation Gmail Addon - Trigger n8n
 
-> 🚀 **Personal Automation Practice Project**  
-> This project is a custom Gmail add-on designed to integrate with n8n for powerful workflow automation.  
-> 
-> 1. **Configure the Gmail add-on in your Google Apps Script environment.**
-> 2. **Connect your n8n instance using the provided webhook endpoint.**
-> 3. **Trigger workflows directly from Gmail with a click.**
-> 4. **Enjoy seamless automation and improved productivity! 🤖
+> 🚀 **Personal Automation Project**  
+> A custom Gmail add-on that integrates with n8n for seamless workflow automation:
+> 1. Configure the add-on in Google Apps Script.
+> 2. Connect via your n8n webhook.
+> 3. Trigger workflows directly from Gmail.
+> 4. Enjoy effortless automation! 🤖
 
 ## Overview
-**Automation Gmail Addon - Trigger n8n** leverages Google Apps Script to create a Gmail add-on that can trigger automated workflows in n8n. This project simplifies the process of integrating your email actions with custom automation workflows, enhancing your productivity.
+Leverage Google Apps Script to trigger n8n workflows straight from Gmail. Automate repetitive tasks and boost productivity with just a few clicks.
 
 ## Features
-- **Gmail Integration:** Easily accessible as a Gmail add-on.
-- **n8n Workflow Trigger:** Send webhook requests to trigger n8n workflows.
-- **Automation Efficiency:** Automate repetitive tasks directly from your inbox.
-- **Customizable:** Adapt the add-on to fit your specific workflow needs.
+- **Gmail Add-on:** Accessible from your Gmail sidebar.
+- **n8n Integration:** Trigger workflows via webhook.
+- **Automation:** Reduce manual tasks.
+- **Customizable:** Tailor to your workflow needs.
 
 ## Getting Started
 
 ### Prerequisites
-- A Google account to access Gmail and Google Apps Script.
-- Basic knowledge of Google Apps Script for customization.
-- An active n8n instance configured to handle webhook triggers.
+- A Google account (for Gmail & Google Apps Script)
+- Basic knowledge of Google Apps Script
+- An active n8n instance with webhook configuration
 
-### Installation
+## Installation
+
 1. **Clone the Repository:**
    ```bash
    git clone https://github.com/Jmao-github/Automation-gmail-addon-TriggerN8N.git
+
+------------------------------------------------------------------------------------------
+
+
+## Import into Google Apps Script
+
+1. **Open Google Apps Script:**  
+   Visit [Google Apps Script](https://script.google.com/).
+
+2. **Create a New Project:**  
+   Create a new project and add the `Code.gs` and `appsscript.json` files from this repository.
+
+3. **Configure the Add-on:**  
+   Update the script with your n8n webhook URL and any necessary settings.
+
+## Usage
+
+- **Activate the Add-on:**  
+  Open Gmail and access the add-on from the sidebar.
+
+- **Trigger Workflows:**  
+  Click the designated button within Gmail to trigger your n8n workflows.
+
+- **Monitor Automation:**  
+  Check your n8n dashboard to monitor triggered workflows and adjust settings as necessary.
+
+## Contributing
+
+Contributions are welcome! If you have suggestions, improvements, or new features, please fork the repository and submit a pull request.
+
+## License
+
+This project is open source. You are free to modify and use it according to your needs.
